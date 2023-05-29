@@ -1,0 +1,3 @@
+# Exclued dependencies
+/vendor/
+composer.lock
