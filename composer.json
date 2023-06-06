@@ -1,6 +1,6 @@
 {
     "name": "tomegantech/git-meta-data-phing-tasks",
-    "description": "A small collection of tasks for obtaining meta-data for a git repo as properties in your build file.",
+    "description": "A small collection of tasks for obtaining meta-data for a git repo as properties in your phing build file.",
     "type": "library",
     "require": {
         "php": ">=8.0",
