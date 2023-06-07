@@ -16,12 +16,12 @@ composer require "tomegantech/git-meta-data-phing-tasks"
 The tasks can the be used in your `build.xml`:
 
 ```xml
-<taskdef name="git-branch-name" classname="TomEganTech\GetGitBranchNameTask\GitBranchNameTask" />
+<taskdef name="git-branch-name" classname="TomEganTech\GitMetaDataPhingTasks\GitBranchNameTask" />
 <git-branch-name property="build.branchName" />
 ```
 
 ```xml
-<taskdef name="git-commit-id" classname="TomEganTech\GetGitBranchNameTask\GitCommitIdTask" />
+<taskdef name="git-commit-id" classname="TomEganTech\GitMetaDataPhingTasks\GitCommitIdTask" />
 <git-commit-id property="build.commitId" />
 ```
 
