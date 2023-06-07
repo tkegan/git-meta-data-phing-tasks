@@ -18,7 +18,7 @@ use Phing\Task;
 /**
  * Define a property storing some meta data about a git repository
  */
-class AbstractGitMetaDataTask extends Task
+abstract class AbstractGitMetaDataTask extends Task
 {
     /** The name of the property */
     protected string $property;
