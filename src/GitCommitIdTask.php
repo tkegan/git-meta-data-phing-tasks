@@ -10,7 +10,7 @@
 
 namespace TomEganTech\GitMetaDataPhingTasks;
 
-use Phing\Exceptions\BuildException;
+use Phing\Exception\BuildException;
 use Phing\Io\File;
 use Phing\Io\FileReader;
 

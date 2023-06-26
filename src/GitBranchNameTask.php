@@ -10,7 +10,7 @@
 
 namespace TomEganTech\GitMetaDataPhingTasks;
 
-use Phing\Exceptions\BuildException;
+use Phing\Exception\BuildException;
 
 /**
  * Define a property containing the name of your project's current git branch name
